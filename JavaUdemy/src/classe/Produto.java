@@ -6,4 +6,11 @@ public class Produto {
 	double price;
 	double discount;
 
+	
+	//foi criado um método para calcular o preço com desconto
+	//também foi alterado na classe ProdutoTeste
+	double priceWithDiscount(){ 
+		double finalDiscount = price * (1 - discount);
+		return finalDiscount;
+	}
 }
