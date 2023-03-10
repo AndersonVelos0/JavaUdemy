@@ -20,6 +20,14 @@ public class ProdutoTeste {
 		System.out.println(p1.name + "\n" + p1.price + "\n" + p1.discount);
 		System.out.println(p2.name + "\n" + p2.price + "\n" + p2.discount);
 		
+		
+		double finalPrice1 = p1.price * (1 - p1.discount);
+		double finalPrice2 = p2.price * (1 - p2.discount);
+		
+		System.out.printf("Preço final do produto é: R$%.2f." + "\n", finalPrice1);
+		System.out.printf("Preço final do produto é: R$%.2f.", finalPrice2);
+		
+		
 		//Obs: É valido lembrar que a alteração de valores e informes dos atributos deve ser feita através dos métodos getters
 		//and setters, desta forma é só para entendimento de como funciona,.
 	}
