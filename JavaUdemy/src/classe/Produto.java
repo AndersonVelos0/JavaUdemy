@@ -13,4 +13,9 @@ public class Produto {
 		double finalDiscount = price * (1 - discount);
 		return finalDiscount;
 	}
+	
+	double priceWithDiscount(double discountOfMannager) {
+		return price * (1 - discount + discountOfMannager);
+		
+	}
 }
