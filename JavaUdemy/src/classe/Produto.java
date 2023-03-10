@@ -13,7 +13,8 @@ public class Produto {
 		double finalDiscount = price * (1 - discount);
 		return finalDiscount;
 	}
-	
+	//criado um método passando um parametro que não foi iniciado na classe
+	//dessa forma, pode ser passado diretamente pelo usuario
 	double priceWithDiscount(double discountOfMannager) {
 		return price * (1 - discount + discountOfMannager);
 		
