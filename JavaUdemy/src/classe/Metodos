@@ -1,0 +1,27 @@
+Métodos
+
+
+Os métodos, em orientação à objetos são como ações, é o que o o objeto pode fazer
+
+Em sua estrutura possuem os parâmetros, a lógica do que ele pode fazer, podendo retornar, ou não
+algum dado. Também temos métodos que não tem parâmetros de entrada, nem tampouco, dados de saída.  
+
+
+Anatomia do método
+
+tipo de retorno (int, string, void, boolean) nomeDoMetodo(Parametros/podendo ser vazio){
+	//corpo do método
+	//teremos o algoritmo do método, a logica
+
+}
+
+EXEMPLO: 
+
+//identidade do método é definida após o tipo, fazem parte o nome do método e os parametros
+int somar(int a, int b){
+	//formas de representação
+	int resultado = a + b;
+	return resultado; 
+	//ou dessa forma
+	return a + b;
+}
