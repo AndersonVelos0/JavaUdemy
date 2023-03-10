@@ -1,0 +1,83 @@
+Revisão sobre classe
+
+Uma classe é um elemento do código Java que utilizamos para representar objetos do mundo real. Dentro dela é comum declararmos atributos e métodos,
+ que representam, respectivamente, as características e comportamentos desse objeto.
+Existe uma regra em java com classe public, obrigatoriamente o nome da classe reflete o nome do arquivo
+Exemplo 
+
+Produto.java
+public class Produto{}
+
+Uma classe define um bloco de código {}
+
+
+public class Produto{} - Isso aqui é um bloco de código onde terão os métodos
+                                                                              
+
+#########################################
+          CLASSES VS OBJETOS
+
+Anatomia de uma classe
+
+(antes da palavra pode existir os modificadores, public, private) class NomeDaClasse(Em letra maiuscula){
+	atributos  e comportamentos
+	que a classe irá conter
+	sempre no corpo:
+	
+	(Caracteristicas, são os substantivos, dados)
+	String cor;
+	double peso;
+	double velocidade;
+	String marca;
+	
+	(Comportamento, são as ações, métodos)
+	frear();
+	ligar();
+	
+	TODOS ELES FORMAM OS MEMBROS DA CLASSE, ATRIBUTOS E COMPORTAMENTOS
+}
+
+
+CLASSE - 
+
+- Uma classe define um tipo e, um tipo, trata-se de uma estrutura de dados. 
+- Você tem a necessidade de criar tipos que te ajudam a construir sua aplicação.
+- A classe representa a abstração, ou seja, a simplificação. Exemplo:
+Imagine que em seu bairro tenha um mercado e precise de um sistema para controle de estoque
+Você utilizará das problematicas do case para personalizar seu tipo, onde atenderá a necessidade
+do cliente
+
+
+OBJETO - 
+
+A partir de uma classe, nós vamos ter os dados, ou seja, o objeto, sempre que você cria algum dado
+por meio de uma classe, teremos um objeto. 
+
+- Um objeto == instancia, "eu criei a partir da classe a instancia A, B ou C."
+
+
+RELAÇÃO ENTRE CLASSE E OBJETO - 
+
+A partir da criação de um "molde", podemos criar várias instancias utilizando o mesmo padrão, ou seja
+a classe sempre definirá a estrutura, contudo, cada qual terá seu valor, permenecendo, somente a estrutura,
+a base. 
+
+
+
+MEMBROS DE UMA CLASSE
+
+Relembrando o assunto, sabemos que dentro de uma classe possuimos atributos e comportamentos, contudo, podemos
+dividir os atributos entre atributos constantes e variaveis. 
+
+
+- Detalhando uma classe:
+
+Membros da classe
+
+Atributos - Variaveis(que pertencem a classe e ao objeto) e constantes(de classe e de objetos)
+Métodos/comportamentos - Classe, Objeto.
+
+Quando temos a palavra "Static" na frente de um atributo, esse atributo pertence a classe e não ao objeto. 
+
+Ao utilizarmos a notação ponto, nós acessamos os membros de um objeto, como é o exemplo do "System.out.print", 
+onde após o System, acessamos os membros do out e, em seguida acessamos o print 
