@@ -5,18 +5,19 @@ public class ProdutoTeste {
 	public static void main(String[] args) {
 		// o new é a palavra que cria uma instancia para classe
 		//Adicionado o parametro exigido pelo construtor
-		Produto p1 = new Produto("Notebook", 4854.34, 0.25);
+		Produto p1 = new Produto("Notebook", 4854.34);
 		// Estamos alterando de forma direta os valores dos atributos da classe Produto
 		
 
 		// Instanciando outro objeto da mesma classe
 		//foi adicionado o nome do produto devido ao construtor criado com parametro
-		Produto p2 = new Produto("Headset", 342.95, 0.15);
+		Produto p2 = new Produto("Headset", 342.95);
 		
 
 		// Imprimindo os valores
-		System.out.println(p1.name + "\n" + p1.price + "\n" + p1.discount);
-		System.out.println(p2.name + "\n" + p2.price + "\n" + p2.discount);
+		// adicionando o atributo da classe "discount"
+		System.out.println(p1.name + "\n" + p1.price + "\n" + Produto.discount);
+		System.out.println(p2.name + "\n" + p2.price + "\n" + Produto.discount);
 
 		//houve o refatoramento do código, adicionando o método de calcular o preço com desconto
 		//quando é chamado entre parenteses, estamos chamando um método, quando sem parenteses, um atributo
