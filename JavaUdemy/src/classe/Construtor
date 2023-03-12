@@ -1,0 +1,31 @@
+Construtor 
+
+
+- Podemos criar mais de um construtor em java, são métodos especiais que criam 
+novos objetos a partir de uma classe. 
+
+- O nome da classe e o nome do construtor são iguais, java já cria um construtor 
+padrão. Ele não recebe nenhum parametro
+
+Exemplo:
+
+public class Produto (){}
+
+- Abaixo, temos o construtor padrão, sem receber parametros.
+- A classe está ao lado esquerdo e o construtor na direita.
+Produtor p1 = new Produto();
+
+
+- Quando um construtor é criado, não são definidos tipos, caso seja definido um 
+tipo, ele deixará de ser um construtor e virará um método comum. 
+
+- O construtor tem seu retorno ausente, pois o retorno do construtor é uma instancia (objeto)
+do tipo produto. 
+
+- também podem ser utilizados parametros dentro do construtor 
+
+
+Resumo das restrições
+
+- Seu nome será definido pelo nome da classe
+- Não tem retorno, sem tipo. 
