@@ -1,0 +1,25 @@
+Membros de Classe x Membro de Instancia 
+
+
+Membros de Classe: 
+
+- Quando criamos uma classe e adicionamos a palavra Static a um atributo, 
+deve-se atribuir um valor a ele. Contudo, esse valor fará parte da classe
+ao ser instanciado, ele terá o valor estabelecido dentro da classe. Ele se torna
+um molde 
+
+Exemplo 
+
+public class Data {
+	//atributo da Classe
+	//pertencendo somente a classe
+	Static int dia = 3;
+	//atributos da classe / instancia
+	int mes;
+	int ano; 
+}
+//acessando o atributo da classe pela classe
+System.out.println(data.dia)
+- Em dia, valerá 3 em todas as instancias que forem criadas a partir da classe Data.
+- Devido a palavra static, você terá apenas um unico atributo pertencente a classe 
+que não necessita pertencer a instancia.
