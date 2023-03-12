@@ -1,0 +1,41 @@
+Atribuição: Valor x Referencia 
+
+
+Valor: Quando mencionamos valor, estamos atribuindo aos tipos primitivos 
+
+Referencia: São valores atribuidos aos objetos 
+
+
+Valor Primitivos: 
+
+int a = 2;
+- Isso significa que você atribuiu um espaço de memória criado para a, com o valor 2 atribuido
+quando declaramos 
+int b = a; 
+- Uma cópia do valor de a foi feita para b, atribuindo outro espaço na memoria, contudo, são valores independentes
+
+
+
+Objeto Referencia
+
+- Quando instanciamos um objeto, exemplo abaixo:
+
+Data d1 = new Data();
+Data d2 = d1;
+
+- Neste caso, teremos o objeto d1 que está apontando para um valor hexadecimal na memoria, que estará apontando para o verdadeiro
+valor contido dentro da classe. a variavel apenas possui o endereço de memória.
+- O valor de d2 terá uma atribuição do mesmo endereço de d1,os dois manipularão os atributos. Onde um enxergar o outro também
+enxergará. 
+
+Quando um objeto na memória não é mais referenciado por nenhuma variavel, ele não será mais alcançado, ocorrerá o processo do 
+Garbage collector, onde ele será coletado pela maquina virtual e liberará memória. 
+
+
+Resumo geral
+
+-Quando você faz a criação de um tipo primitivo, e faz uma atribuição, esse é um processo feito por valor. 
+Uma cópia é criada na memoria, tendo dois valores independentes
+
+- Quando você trabalha com objeto, você irá atribuir por referencia, uma variavel atribuida a partir de outra variavel
+voce está fazendo uma copia de endereço na memoria. Se você alterar o valor em uma, a outra também irá ver o valor alterado. 
