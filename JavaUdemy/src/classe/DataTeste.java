@@ -10,7 +10,8 @@ public class DataTeste {
 		date1.year = 2016;
 
 		System.out.println(date1.day + "/" + date1.month + "/" + date1.year);
-		System.out.printf("%d/%d/%d", date1.day, date1.month, date1.year);
+		//adicionando o método showDate para mostrar a data completa através da função
+		System.out.printf(date1.showDate());
 		
 	}
 
