@@ -81,3 +81,9 @@ Quando temos a palavra "Static" na frente de um atributo, esse atributo pertence
 
 Ao utilizarmos a notação ponto, nós acessamos os membros de um objeto, como é o exemplo do "System.out.print", 
 onde após o System, acessamos os membros do out e, em seguida acessamos o print 
+
+- Olhando para essa analogia posso definir que um objeto não existe se uma classe não for criada, sobretudo se não for instanciado, pois o mesmo é a classe materializada.
+
+- Então tudo que não for instanciado dentro da classe é um elemento pertencente a classe.
+
+- E tudo que for instanciado dentro da classe é um elemento pertencente ao objeto.
