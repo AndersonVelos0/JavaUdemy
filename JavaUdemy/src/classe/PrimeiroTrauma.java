@@ -4,6 +4,8 @@ public class PrimeiroTrauma {
 	// como chamar essa variavel dentro do método main sem ter declarado-a dentro
 	// dele?
 	int a = 3;
+	//um membro de classe consegue acessar outro membro de classe
+	//algo estatico consegue acessar algo estatico
 	static int b = 4;
 
 	public static void main(String[] args) {
