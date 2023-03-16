@@ -1,0 +1,51 @@
+Entendendo Equals e Hashcode
+
+
+Equals
+
+- Quando criamos um objeto:
+
+Produto p1 = new Produto();
+p1.nome = "Caneta";
+- Na memória do computador, a variavel p1 estará com um endereço especifico.
+
+Produto p2 = new Produto();
+p2.nome = "Caneta";
+
+- A variavel p2 também estará apontando para outro endereço de memória, pois pertence a outro objeto instanciado
+
+- Se formos comparar ambos p1 == p2, o retorno será falto, pois os endereços de memória serão distintos. 
+Sempre que uma comparação utilizada "==" você está comparando memória e não valores do objeto. Caso essa comparação 
+fosse feita em tipos primitivos, seria verdadeira
+
+
+EQUALS
+
+- É um método disponível em todos os objetos em java, independente de ser um objeto do proprio java ou uma classe criada
+terão o equals.
+
+Fazendo a sintaxe acima usando o equals
+
+p1.equals(p2) - Retornará falso
+
+- Para que a função tenha uma lógica, é necessário criar uma lógica para ela comparar os dois objetos. Por padrão, ele olhará
+endereço de memória. 
+
+
+- Equals retornará um valor boolean
+- É um método mais lento
+
+
+HASHCODE 
+
+- É uma função que retornará um valor inteiro
+- É mais rapido, ele separa detalhadamente o grosso, busca somente pelo valor do hashcode estabelecido
+- Após achar os elementos, o equals é chamado para verificar os detalhes.
+Exemplo:
+
+- Você possui um conjunto com um objeto e dentro desse objeto você possui os nomes setados entre milhares. Como procurar dentro desse conjunto
+apenas um elemento, será seu alvo de busca. 
+
+
+-SEMPRE QUE O MÉTODO EQUALS FOR IMPLEMENTADO, O HASHCODE TERÁ DE SER IMPLEMENTADO
+
