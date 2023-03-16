@@ -1,7 +1,6 @@
 package Array_And_Collections;
 
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class ExercicioArrays {
