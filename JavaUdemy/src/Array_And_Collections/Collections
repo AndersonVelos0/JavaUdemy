@@ -1,0 +1,50 @@
+Collections 
+
+
+- Diferentemente do array, as collections tem tamanhos variaveis, podem crescer. 
+Você vai poder acrescentar elementos. 
+
+- Você pode obter collections com dados misturados (string, double, int), contudo,
+a boa prática sugere que você trabalhe com dados de apenas um tipo. 
+
+- Collections não suportam tipo primitivos, somente arrays, classe Wrappers. 
+
+//Collections são estruturas de dados
+
+COLLECTION SET 
+
+- É um conjunto NÃO ORDENADO (POR PADRÃO)
+- É um conjunto NÃO INDEXADO 
+- É um conjunto que NÃO ACEITA REPETIÇÃO (Não pode colocar elementos iguais)
+- É um conjunto com UMA LISTA DENTRO  
+
+COLLECTION LIST
+
+- É um conjunto INDEXADO
+- É um conjunto que ACEITA REPETIÇÃO
+- É um conjunto mais parecido com ARRAY
+- É um conjunto que você pode colocar VARIOS VALORES DENTRO 
+- É um conjunto com uma lista ORDENADA
+
+
+COLLECTION MAP 
+
+- É um conjunto com CHAVE E VALOR
+- É um conjunto que NÃO ACEITA REPETIÇÃO NA CHAVE
+- É um conjunto que ACEITA REPETIÇÃO EM VALOR
+- É um conjunto com uma lista ORDENADA
+
+
+COLLECTION QUEUE (FILA)
+
+- É um conjunto com a implementaçã da FILA FIFO (FIRST IN / FIRST OUT)
+
+COLLECTION STACK (PILHA)
+
+- É um conjunto com a implementação da PILHA (STACK)
+- É um conjunto que usa PILHA (LIFO - LAST IN / FIRST  OUT)
+
+Funções (Alteram-se entre as collections)
+
+Add - Adicionar elemento na lista
+Size() - Verificar o tamanho da lista 
