@@ -10,6 +10,7 @@ public class User {
 
 		// forma correta de se implementar para verificação da veracidade
 		// verificando se o obj está instanciado em User
+		//o instanceof pergunta "a variavel obj é da instancia de User?"
 		if (obj instanceof User) {
 			// Convertendo o objeto em user
 			User outro = (User) obj;
