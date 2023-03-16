@@ -19,7 +19,7 @@ public class Data {
 	int ano; 
 }
 //acessando o atributo da classe pela classe
-System.out.println(data.dia)
+System.out.println(Data.dia)
 - Em dia, valerá 3 em todas as instancias que forem criadas a partir da classe Data.
 - Devido a palavra static, você terá apenas um unico atributo pertencente a classe 
 que não necessita pertencer a instancia.

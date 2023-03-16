@@ -37,7 +37,7 @@ public class TiposPrimitivos {
 		System.out.println(numeroDeSalarios / 12);
 		
 		//Id 
-		System.out.println(id + "ganha" + salario);
+		System.out.println(id + " ganha " + salario);
 		
 		//saldo
 		System.out.println(saldoBancario);

@@ -13,7 +13,7 @@ public class DataTeste {
 		
 		// adicionando o método showDate para mostrar a data completa através da função
 		
-		System.out.println(formatedDate1);
+		System.out.println(formatedDate1);		
 		System.out.println(date2.showDate());
 
 		date1.showDate();

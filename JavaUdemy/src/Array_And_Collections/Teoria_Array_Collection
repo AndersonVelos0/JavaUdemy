@@ -1,0 +1,44 @@
+Array e Collections 
+
+
+
+Array 
+
+
+- Um array é uma estrutura estática, ou seja, ela não muda de tamanho, ele é fixo
+no momento da criação, você informa a quantidade de valores que serão armazenadas. 
+
+- Um array é uma estrutura unidimensional, ele nunca mudará de tamanho a partir de sua criação.
+Contudo, você pode criar um novo array com um armazenamento maior e copiar os dados do array previamente criado
+
+- Um array é homogeneo, todos os dados se referem apenas a um tipo, seja ele inteiro, double, string. 
+Somente um tipo é possível de armazenar. 
+
+- Um array é uma estrutura indexada, ele efetua sua busca de valores através de índices, para que haja o acesso 
+aos elementos, é necessário impor um valor, começando a partir do 0. Exemplo, um array de 6 posições vai até o indice 5. 
+
+- Um array é um objeto, ou seja, você possui atributos e comportamentos associados ao array. 
+
+Exemplo: 
+//você criou um array do tipo inteiro
+//você precisa adicionar a quantidade de elementos que terá dentro do array, no caso do exemplo "6"
+
+double [] notas = new double [6];
+
+//para inserir os dados no array, podemos fazer da seguinte forma: 
+//quando um elemento não é iniciado, ele é 0
+
+notas (elemento)[2] = 10.0;
+notas [0] = 9.2;
+//acessando os valores
+System.out.println(notas[5]);
+
+
+REPRESENTAÇÃO MULTIDIMENSIONAL EM JAVA NÃO EXISTE
+
+- Em java, para representar esse tipo de matriz, você terá de ter um array de 3 posições, onde, 
+dentro dele terá outro array de 3 posições em cada uma das posições. 
+
+Exemplo:
+
+double [][] = 
