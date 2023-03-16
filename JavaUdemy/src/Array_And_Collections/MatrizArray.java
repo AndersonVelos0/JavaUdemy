@@ -17,7 +17,7 @@ public class MatrizArray {
 		double[][] notasDaTurma = new double[qtdAlunos][qtdNotas];
 		double total = 0;
 		// percorrendo as notas da turma
-		// o for mais externo percorrerá todas as notas da turma
+		// o for mais externo percorrerá todos os alunos
 		for (int i = 0; i < notasDaTurma.length; i++) {
 			// a variavel j vai percorrer a nota e a variavel i representa o aluno
 			for (int j = 0; j < notasDaTurma[i].length; j++) {
