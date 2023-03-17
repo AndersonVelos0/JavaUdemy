@@ -17,6 +17,10 @@ COLLECTION SET
 - É um conjunto NÃO INDEXADO 
 - É um conjunto que NÃO ACEITA REPETIÇÃO (Não pode colocar elementos iguais)
 - É um conjunto com UMA LISTA DENTRO  
+- É um conjunto HETEROGENEO 
+- É um conjunto HOMOGENEO 
+- É um conjunto que NÃO ACEITA OBJ DUPLICADOS
+- É um conjunto ORDENADO E NÃO INDEXADO
 
 COLLECTION LIST
 
