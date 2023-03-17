@@ -1,4 +1,4 @@
-package Array_And_Collections;
+package Arrays;
 
 public class ForEach {
 

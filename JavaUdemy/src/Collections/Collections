@@ -29,6 +29,10 @@ COLLECTION LIST
 - É um conjunto mais parecido com ARRAY
 - É um conjunto que você pode colocar VARIOS VALORES DENTRO 
 - É um conjunto com uma lista ORDENADA
+- É um conjunto HETEROGENEO 
+- É um conjunto HOMOGENEO 
+- É um conjunto que ACEITA OBJ DUPLICADOS
+- É um conjunto ORDENADO e INDEXADO
 
 
 COLLECTION MAP 
